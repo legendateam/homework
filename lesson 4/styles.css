@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+}
+.menu {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    display: flex;
+    justify-content: center;
+}
+
+.menu1 {
+     width: 50%;
+     height: 39px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+
+.menu2 {
+     width: 70%;
+     height: 39px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.red_menu {
+    background-color: rgb(119, 25, 25);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.rosdil {
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.ukr {
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+
+.zasnovnuk {
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.ukrrus {
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 0px;
+    margin: 0px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.club {
+    display: inline-block;
+    background-color: rgb(212, 27, 27);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0px;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.club:hover { background: rgb(232,95,76); }
+.club:active { background: rgb(152,15,0); }
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p {
+    font-size: 8pt;
+    cursor: pointer;
+}
+
+.p2 {
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.p3 {
+    color: white;
+}
+
+.p4 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.p5 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.p6 {
+    color: white;
+    
+}
